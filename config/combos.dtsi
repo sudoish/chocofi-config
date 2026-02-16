@@ -49,11 +49,11 @@
     // right-hand side combos
         // COMBO(ret, 16 17 18, &kp RET, BASE)
         // parenthesis combos
-        COMBO(lpar, 16 17, &kp LPAR, BASE BASE_WIN SYM SYMW NUM)
-        COMBO(rpar, 17 18, &kp RPAR, BASE BASE_WIN SYM SYMW NUM)
+        COMBO(lpar, 16 17, &kp LPAR, BASE BASE_WIN SYM_R SYM_RW NUM)
+        COMBO(rpar, 17 18, &kp RPAR, BASE BASE_WIN SYM_R SYM_RW NUM)
         // brackets combos
-        COMBO(lbkt, 26 27, &kp LBKT, BASE BASE_WIN SYM SYMW NUM)
-        COMBO(rbkt, 27 28, &kp RBKT, BASE BASE_WIN SYM SYMW NUM)
+        COMBO(lbkt, 26 27, &kp LBKT, BASE BASE_WIN SYM_R SYM_RW NUM)
+        COMBO(rbkt, 27 28, &kp RBKT, BASE BASE_WIN SYM_R SYM_RW NUM)
         // braces combos
         // COMBO(lbrc, 26 27, &kp LBRC, BASE NUM)
         // COMBO(rbrc, 27 28, &kp RBRC, BASE NUM)
