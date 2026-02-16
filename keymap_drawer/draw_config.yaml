@@ -59,12 +59,8 @@ parse_config:
 
   raw_binding_map:
     # Layers
-    "&to BASE_WIN" : $$mdi:microsoft-windows$$
-    "&to BASE" : $$mdi:apple$$
-    "&tog LOCKL": 
+    "&tog LOCKL":
       tap: $$mdi:lock-open-outline$$
-      align: top
-      offset: 10
 
     # Modifiers
     "&caps_word": $$mdi:caps-lock$$
@@ -75,13 +71,13 @@ parse_config:
       type: none
 
     # Bluetooth
-    "&osx_connect":
+    "&bt BT_SEL 0":
       shifted: ""
-      tap: $$mdi:apple$$
+      tap: $$mdi:bluetooth-connect$$
       hold: 1
-    "&pc_connect":
+    "&bt BT_SEL 1":
       shifted: ""
-      tap: $$mdi:microsoft-windows$$
+      tap: $$mdi:bluetooth-connect$$
       hold: 2
     "&bt BT_SEL 2":
       shifted: ""
@@ -108,13 +104,6 @@ parse_config:
 
     # other
     "&screenshot": $$mdi:monitor-screenshot$$
-    "&win_sleep": $$mdi:power-sleep$$
-    "&prev_next_song": 
-      tap: $$mdi:skip-next$$
-      shifted: $$mdi:skip-previous$$
-    "&macro_par": 
-      tap: "(...)"
-      align: top
     "&curr_deg": "$/€/°"
     "&swapper":
       tap: $$mdi:swap-horizontal$$
@@ -310,16 +299,16 @@ parse_config:
     # F12: $$mdi:keyboard-f12$$
 
     # Numpad
-    KP_N0: 0
-    KP_N1: 1
-    KP_N2: 2
-    KP_N3: 3
-    KP_N4: 4
-    KP_N5: 5
-    KP_N6: 6
-    KP_N7: 7
-    KP_N8: 8
-    KP_N9: 9
+    KP_N0: "0"
+    KP_N1: "1"
+    KP_N2: "2"
+    KP_N3: "3"
+    KP_N4: "4"
+    KP_N5: "5"
+    KP_N6: "6"
+    KP_N7: "7"
+    KP_N8: "8"
+    KP_N9: "9"
     KP_PLUS: +
     KP_MINUS: "-"
     KP_MULTIPLY: "*"
