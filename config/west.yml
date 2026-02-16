@@ -9,6 +9,10 @@ manifest:
       remote: urob
       revision: main
       import: app/west.yml
+    - name: zmk-tri-state
+      remote: urob
+      revision: main
+      path: modules/zmk/tri-state
   # projects:
   #   - name: zmk
   #     remote: zmkfirmware
