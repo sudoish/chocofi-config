@@ -107,12 +107,6 @@ parse_config:
     # other
     "&screenshot": $$mdi:monitor-screenshot$$
     "&win_sleep": $$mdi:power-sleep$$
-    "&prev_next_song": 
-      tap: $$mdi:skip-next$$
-      shifted: $$mdi:skip-previous$$
-    "&macro_par": 
-      tap: "(...)"
-      align: top
     "&curr_deg": "$/€/°"
     "&swapper":
       tap: $$mdi:swap-horizontal$$
