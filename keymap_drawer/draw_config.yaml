@@ -61,10 +61,8 @@ parse_config:
     # Layers
     "&to BASE_WIN" : $$mdi:microsoft-windows$$
     "&to BASE" : $$mdi:apple$$
-    "&tog LOCKL": 
+    "&tog LOCKL":
       tap: $$mdi:lock-open-outline$$
-      align: top
-      offset: 10
 
     # Modifiers
     "&caps_word": $$mdi:caps-lock$$
