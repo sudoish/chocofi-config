@@ -3,6 +3,7 @@ on:
   workflow_dispatch: # can be triggered manually
   push: # automatically run on changes to following paths
     paths:
+      - "config/base.keymap"
       - "config/dummy.keymap"
       - "config/*.dtsi"
       - "keymap_drawer/draw_config.yaml"
