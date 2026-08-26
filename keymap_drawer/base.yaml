@@ -38,16 +38,16 @@ layers:
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-control$$
   NUM:
-  - F12
-  - F7
-  - F8
-  - F9
-  - {type: none}
-  - '}'
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
   - '7'
   - '8'
   - '9'
-  - {type: none}
+  - '0'
   - F10
   - F4
   - F5
@@ -56,8 +56,8 @@ layers:
   - '{'
   - '4'
   - '5'
-  - '6'
-  - E
+  - '-'
+  - "'"
   - {type: none}
   - F1
   - {t: F2, type: held}
