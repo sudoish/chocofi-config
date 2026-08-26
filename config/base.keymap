@@ -64,6 +64,10 @@
     quick-release;
 };
 
+&sl {
+    release-after-ms = <5000>;
+};
+
 &caps_word {
     continue-list = <UNDERSCORE MINUS BSPC N1 N2 N3 N4 N5 N6 N7 N8 N9 N0>;
 };
@@ -118,6 +122,13 @@
             #binding-cells = <0>;
             tapping-term-ms = <TAP_TERM_MS>;
             bindings = <&kp LG(LS(NUMBER_4))>, <&kp LG(LS(NUMBER_3))>;
+        };
+        tmux_ctrl: tmux_ctrl {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TMUX_CTRL";
+            #binding-cells = <0>;
+            tapping-term-ms = <TAP_TERM_MS>;
+            bindings = <&kp RCTRL>, <&tmux_num>;
         };
 
         // ── SMART SPACE (hold: layer | tap: space | shift+tap: ". " + sticky shift) ──
@@ -200,6 +211,14 @@
             tap-ms = <5>;
             bindings = <&kp DOT &kp SPACE &sk LSHFT>;
         };
+
+        // tmux window selection: send prefix, then enable NUM for one keypress
+        tmux_num: tmux_num {
+            label = "TMUX_NUM";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(A) &sl NUM>;
+        };
     };
 
     // ── CONDITIONAL LAYERS ────────────────────────────────────────────────────
@@ -228,7 +247,7 @@
              //├──────────────┼──────────────┼──────────────┼──────────────┼──────────────┤     ├──────────────┼──────────────┼──────────────┼──────────────┼──────────────┤
                 &kp Z            &kp X          &lt NUM C      &kp V          &kp B                &kp N            &kp M        &comma_semi    &dot_colon     &kp SLASH
              //╰──────────────┴──────────────┼──────────────┼──────────────┼──────────────┤     ├──────────────┼──────────────┼──────────────┼──────────────┴──────────────╯
-                                              &kp LCTRL        &lt NUM BSPC   &lt_spc SYM_R 0      &lt SYM_L RET    &kp SPACE      &kp RCTRL
+                                              &kp LCTRL        &lt NUM BSPC   &lt_spc SYM_R 0      &lt SYM_L RET    &kp SPACE      &tmux_ctrl
              //                              ╰──────────────┴──────────────┴──────────────╯     ╰──────────────┴──────────────┴──────────────╯
             >;
         };
