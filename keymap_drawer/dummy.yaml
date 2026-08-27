@@ -33,7 +33,7 @@ layers:
   - /
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:backspace-outline$$', h: NUM}
-  - {t: '$$mdi:keyboard-space$$', h: SYM_R, s: $$dot_spc$$}
+  - {t: '$$mdi:keyboard-space$$', h: NAV, s: $$dot_spc$$}
   - {t: '$$mdi:keyboard-return$$', h: SYM_L}
   - $$mdi:keyboard-space$$
   - '&tmux_ctrl'
@@ -107,7 +107,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {type: none}
   - {type: none}
@@ -121,7 +121,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
+  - '='
   - $$escape$$
   - '`'
   - \
@@ -181,7 +181,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: none}
   - {type: none}
@@ -218,7 +218,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: held}
-  - {type: held}
+  - {type: none}
   - {type: held}
   - {type: none}
   - {type: none}
