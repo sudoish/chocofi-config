@@ -117,30 +117,30 @@ layers:
   - '#'
   - '&'
   - '%'
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
+  - ^
+  - +
+  - '*'
+  - $/€/°
   - '='
   - $$escape$$
   - '`'
   - \
   - '|'
   - '~'
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
+  - _
+  - '-'
+  - /
+  - '='
+  - '!'
   - {type: none}
   - {t: '`', h: '$$tabler:sticker$$'}
   - {t: ´, h: '$$tabler:sticker$$', type: held alternate}
   - <
   - {type: none}
   - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
+  - '>'
+  - ;
+  - ':'
   - {type: none}
   - {type: none}
   - {type: held alternate}
