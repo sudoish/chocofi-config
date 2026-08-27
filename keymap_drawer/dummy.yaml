@@ -35,7 +35,7 @@ layers:
   - {t: '$$mdi:backspace-outline$$', h: NUM}
   - {t: '$$mdi:keyboard-space$$', h: NAV, s: $$dot_spc$$}
   - {t: '$$mdi:keyboard-return$$', h: SYM_L}
-  - $$mdi:keyboard-space$$
+  - '&space_cmd_num'
   - '&tmux_ctrl'
   NUM:
   - '1'
@@ -233,6 +233,43 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  CMD_NUM:
+  - Gui+1
+  - Gui+2
+  - Gui+3
+  - Gui+4
+  - Gui+5
+  - Gui+6
+  - Gui+7
+  - Gui+8
+  - Gui+9
+  - Gui+0
   - {type: none}
   - {type: none}
   - {type: none}
