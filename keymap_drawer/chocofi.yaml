@@ -218,7 +218,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: held}
-  - {type: none}
+  - {type: held}
   - {type: held}
   - {type: none}
   - {type: none}

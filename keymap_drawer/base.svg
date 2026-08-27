@@ -1093,8 +1093,8 @@ path.combo {
 <g transform="translate(254, 236) rotate(15.0)" class="key held keypos-31">
 <rect rx="4" ry="4" x="-29" y="-27" width="57" height="54" class="key held"/>
 </g>
-<g transform="translate(321, 246) rotate(30.0)" class="key none keypos-32">
-<rect rx="4" ry="4" x="-27" y="-43" width="54" height="87" class="key none"/>
+<g transform="translate(321, 246) rotate(30.0)" class="key held keypos-32">
+<rect rx="4" ry="4" x="-27" y="-43" width="54" height="87" class="key held"/>
 </g>
 <g transform="translate(463, 246) rotate(-30.0)" class="key held keypos-33">
 <rect rx="4" ry="4" x="-27" y="-43" width="54" height="87" class="key held"/>
