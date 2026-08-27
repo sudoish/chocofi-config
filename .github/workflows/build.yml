@@ -2,4 +2,7 @@ on: [push, pull_request, workflow_dispatch]
 
 jobs:
   build:
-    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+    permissions:
+      contents: read
+    # Keep the build workflow compatible with the Urob ZMK fork pinned in west.yml.
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@8266433d6b85cfecf57a4ba48e27e1eebb3de7b2
