@@ -230,12 +230,12 @@
     };
 
     // ── CONDITIONAL LAYERS ────────────────────────────────────────────────────
-    // SYM_L + SYM_R → ADJ (adjustment layer via tri-layer)
+    // NAV + SYM_L → ADJ (hold both layer thumbs)
 
     conditional_layers {
         compatible = "zmk,conditional-layers";
         tri_layer {
-            if-layers = <SYM_L SYM_R>;
+            if-layers = <NAV SYM_L>;
             then-layer = <ADJ>;
         };
     };
